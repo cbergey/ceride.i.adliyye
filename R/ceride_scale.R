@@ -76,7 +76,7 @@ make_ceride_palette <- function(palette = "four_colors", alpha = 1, reverse = FA
 #'
 #' ggplot(mpg) +
 #'  geom_point(aes(x = hwy, y = cty, color = manufacturer)) +
-#'  scale_color_me("five_colors")
+#'  scale_color_ceride("five_colors")
 #'
 #' @export
 #'
@@ -84,7 +84,7 @@ make_ceride_palette <- function(palette = "four_colors", alpha = 1, reverse = FA
 #'
 
 
-scale_colour_me <- function(palette = "five_colors", discrete = TRUE, alpha = 1, reverse = FALSE, ...) {
+scale_color_ceride <- function(palette = "five_colors", discrete = TRUE, alpha = 1, reverse = FALSE, ...) {
 
   if (discrete) {
     discrete_scale("colour", "ceride_col", make_ceride_palette(palette, alpha = alpha, reverse = reverse), ...)
@@ -115,12 +115,12 @@ scale_colour_me <- function(palette = "five_colors", discrete = TRUE, alpha = 1,
 #'
 #' ggplot(aes(x = manufacturer, fill = manufacturer), data = mpg) +
 #'   geom_bar() +
-#'   scale_fill_me()
+#'   scale_fill_ceride()
 #' @export
 #'
 
 
-scale_fill_me <- function(palette = "five_colors", discrete = TRUE, alpha = 1, reverse = FALSE, ...) {
+scale_fill_ceride <- function(palette = "five_colors", discrete = TRUE, alpha = 1, reverse = FALSE, ...) {
 
   if (discrete) {
     discrete_scale("fill", "ceride_col", make_ceride_palette(palette, alpha = alpha, reverse = reverse), ...)
