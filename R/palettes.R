@@ -1,0 +1,32 @@
+#' A collection of palettes drawn from data visualizations in Cerîde-i Adliyye (The Justice Gazette), published in Turkey in the 1920s.
+#' Thanks to Jilly MacKay
+
+ceride_palettes <- list(three_colors = c("#b3aa8d",
+                                     "#e75b32",
+                                     "#9fa650"),
+                    four_colors = c("#cac178",
+                                    "#dfdac3",
+                                    "#c54e54",
+                                    "#e18f82"),
+                    four_alternate = c("#d8e0e7",
+                                       "#e7ac76",
+                                       "#fb857a",
+                                       "#474546",
+                                       "#d9cb9c"),
+                    five_colors = c("#dcd0a0",
+                                    "#f26671",
+                                    "#677aaa",
+                                    "#facb78",
+                                    "#779769"),
+                    five_alternate = c("#e7ca12",
+                                       "#d8013d",
+                                       "#307982",
+                                       "#d66508",
+                                       "#d8e0e7"),
+                    six_colors = c("#779769",
+                                   "#dca866",
+                                   "#688f96",
+                                   "#484e45",
+                                   "#e75b32",
+                                   "#b3aa8d"
+                    ))
