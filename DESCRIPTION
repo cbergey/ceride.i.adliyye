@@ -1,18 +1,18 @@
 Package: ceride.i.adliyye
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Color Palettes from Ceride-i Aliyye Data Visualizations
 Version: 0.1.0
 Authors@R: c(
     person(
-      "Jane", "Doe",
-      email = "jane@example.com",
+      "Claire Augusta", "Bergey",
+      email = "cbergey@stanford.edu",
       role = c("aut", "cre")
     )
   )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
+Description: Just some color palettes.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/cbergey/ceride.i.adliyye
 BugReports: https://github.com/cbergey/ceride.i.adliyye/issues
+RoxygenNote: 7.3.3
